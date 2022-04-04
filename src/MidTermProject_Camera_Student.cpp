@@ -36,7 +36,7 @@ int main(int argc, const char *argv[])
     int imgFillWidth = 4;  // no. of digits which make up the file index (e.g. img-0001.png)
 
     // misc
-    int dataBufferSize = 2;       // no. of images which are held in memory (ring buffer) at the same time
+    int dataBufferSize = 3;       // no. of images which are held in memory (ring buffer) at the same time
     vector<DataFrame> dataBuffer; // list of data frames which are held in memory at the same time
     bool bVis = false;            // visualize results
 
@@ -62,10 +62,25 @@ int main(int argc, const char *argv[])
         // push image into data frame buffer
         DataFrame frame;
         frame.cameraImg = imgGray;
-        dataBuffer.push_back(frame);
 
+        std::cout << "Current DataBuffer Size: " << dataBuffer.size() << std::endl;
+
+        // Fill ring buffer upto bufferSize
+        if (dataBuffer.size() < dataBufferSize)
+        {
+            dataBuffer.push_back(frame);
+        }
+
+        // If buffer size is reached delete first element, than push_back new frame to the end
+        else
+        {
+            dataBuffer.erase(dataBuffer.begin());
+            dataBuffer.push_back(frame);
+        }
+
+        
         //// EOF STUDENT ASSIGNMENT
-        cout << "#1 : LOAD IMAGE INTO BUFFER done" << endl;
+        cout << "#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: " << dataBuffer.size() << endl;
 
         /* DETECT IMAGE KEYPOINTS */
 
@@ -79,7 +94,7 @@ int main(int argc, const char *argv[])
 
         if (detectorType.compare("SHITOMASI") == 0)
         {
-            detKeypointsShiTomasi(keypoints, imgGray, false);
+            detKeypointsShiTomasi(keypoints, imgGray, true);
         }
         else
         {
