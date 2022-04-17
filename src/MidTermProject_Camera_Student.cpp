@@ -86,7 +86,7 @@ int main(int argc, const char *argv[])
 
         // extract 2D keypoints from current image
         vector<cv::KeyPoint> keypoints; // create empty feature list for current image
-        string detectorType = "SHITOMASI";
+        string detectorType = "FAST"; // -> SHITOMASI, HARRIS, FAST, BRISK, ORB, AKAZE, SIFT
 
         //// STUDENT ASSIGNMENT
         //// TASK MP.2 -> add the following keypoint detectors in file matching2D.cpp and enable string-based selection based on detectorType
@@ -96,9 +96,13 @@ int main(int argc, const char *argv[])
         {
             detKeypointsShiTomasi(keypoints, imgGray, true);
         }
+        else if (detectorType.compare("HARRIS") == 0)
+        {
+            detKeypointsHarris(keypoints, imgGray, true);
+        }
         else
         {
-            //...
+            detKeypointsModern(keypoints, imgGray, detectorType, true);
         }
         //// EOF STUDENT ASSIGNMENT
 
@@ -106,12 +110,51 @@ int main(int argc, const char *argv[])
         //// TASK MP.3 -> only keep keypoints on the preceding vehicle
 
         // only keep keypoints on the preceding vehicle
+
+        cout << "-- Remove Keypoints outside the bounding box --" << endl;
+        cout << "Num of Keypoints before cropping: " << keypoints.size() << endl;
+
         bool bFocusOnVehicle = true;
         cv::Rect vehicleRect(535, 180, 180, 150);
+        
         if (bFocusOnVehicle)
         {
-            // ...
+            // temp keypoints vector to store cropped keypoints
+            vector<cv::KeyPoint> keypoints_tmp;
+        
+            // Loop over all keypoints
+            for (auto itr_kpts = keypoints.begin(); itr_kpts != keypoints.end(); ++itr_kpts)
+            {
+                // Crop keypoints if within the defined bounding box of the preceding vehicle
+                if (vehicleRect.contains(itr_kpts->pt))
+                {
+                    keypoints_tmp.push_back(*itr_kpts);
+                }
+            }
+
+            keypoints = keypoints_tmp;
         }
+
+
+        //// +++++ Debug Keypoint Cropping ++++++
+
+        bool bDebugKeypoingCropping = true;
+        if(bDebugKeypoingCropping)
+        {
+            cv::Mat img_keypoints;
+            cv::drawKeypoints( imgGray, keypoints, img_keypoints, cv::Scalar::all(-1), cv::DrawMatchesFlags::DRAW_RICH_KEYPOINTS );
+
+
+            std::string windowName = "Show cropped Keypoints only";
+            cv::namedWindow(windowName, 5);
+            cv::imshow(windowName, img_keypoints);
+        }
+
+        //// +++++ EOF Debug Keypoint Cropping ++++++
+        
+
+
+        cout << "Num of Keypoints after cropping: " << keypoints.size() << endl;
 
         //// EOF STUDENT ASSIGNMENT
 
@@ -140,7 +183,7 @@ int main(int argc, const char *argv[])
         //// -> BRIEF, ORB, FREAK, AKAZE, SIFT
 
         cv::Mat descriptors;
-        string descriptorType = "BRISK"; // BRIEF, ORB, FREAK, AKAZE, SIFT
+        string descriptorType = "BRISK"; // BRISK, BRIEF, ORB, FREAK, AKAZE, SIFT
         descKeypoints((dataBuffer.end() - 1)->keypoints, (dataBuffer.end() - 1)->cameraImg, descriptors, descriptorType);
         //// EOF STUDENT ASSIGNMENT
 
@@ -155,9 +198,9 @@ int main(int argc, const char *argv[])
             /* MATCH KEYPOINT DESCRIPTORS */
 
             vector<cv::DMatch> matches;
-            string matcherType = "MAT_BF";        // MAT_BF, MAT_FLANN
+            string matcherType = "MAT_FLANN";        // MAT_BF, MAT_FLANN
             string descriptorType = "DES_BINARY"; // DES_BINARY, DES_HOG
-            string selectorType = "SEL_NN";       // SEL_NN, SEL_KNN
+            string selectorType = "SEL_KNN";       // SEL_NN, SEL_KNN
 
             //// STUDENT ASSIGNMENT
             //// TASK MP.5 -> add FLANN matching in file matching2D.cpp
@@ -173,6 +216,7 @@ int main(int argc, const char *argv[])
             (dataBuffer.end() - 1)->kptMatches = matches;
 
             cout << "#4 : MATCH KEYPOINT DESCRIPTORS done" << endl;
+            cout << "Number of matched Keypoints: " << matches.size() << endl;
 
             // visualize matches between current and previous image
             bVis = true;
@@ -195,6 +239,10 @@ int main(int argc, const char *argv[])
         }
 
     } // eof loop over all images
+
+    // Windows Subsystem for Linux (WSL2) Workaround to avoid WSL restart after each execution
+    cout << "End of Program, WSL2 workaround, kill app now" << endl;
+    cv::waitKey(0);
 
     return 0;
 }
