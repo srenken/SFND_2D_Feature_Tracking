@@ -128,7 +128,7 @@ void descKeypoints(vector<cv::KeyPoint> &keypoints, cv::Mat &img, cv::Mat &descr
 		double  	edgeThreshold = 10;
 		double  	sigma = 1.6;
 
-        extractor = cv::xfeature2d::SIFT::create(nfeatures, nOctaveLayers, contrastThreshold, edgeThreshold, sigma);
+        extractor = cv::SIFT::create(nfeatures, nOctaveLayers, contrastThreshold, edgeThreshold, sigma);
     }
 
     // perform feature description
@@ -291,7 +291,7 @@ void detKeypointsModern(std::vector<cv::KeyPoint> &keypoints, cv::Mat &img, std:
     else if(detectorType.compare("SIFT") == 0)
     {
         // Detect keypoints using SIFT Detector
-        cv::Ptr<cv::xfeature2d::SIFT> detector = cv::xfeature2d::SIFT::create();
+        cv::Ptr<cv::SIFT> detector = cv::SIFT::create();
         detector->detect(img, keypoints); 
     }
     else if(detectorType.compare("FAST") == 0)
