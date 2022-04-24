@@ -1,0 +1,117 @@
+Current DataBuffer Size: 0
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 1
+SIFT detection with n=1438 keypoints in 96.3631 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1438
+Num of Keypoints after cropping: 138
+#2 : DETECT KEYPOINTS done
+FREAK descriptor extraction in 25.2404 ms
+#3 : EXTRACT DESCRIPTORS done
+Current DataBuffer Size: 1
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 2
+SIFT detection with n=1371 keypoints in 79.1209 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1371
+Num of Keypoints after cropping: 132
+#2 : DETECT KEYPOINTS done
+FREAK descriptor extraction in 29.3108 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 56
+Press key to continue to next image
+Current DataBuffer Size: 2
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+SIFT detection with n=1380 keypoints in 90.2937 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1380
+Num of Keypoints after cropping: 124
+#2 : DETECT KEYPOINTS done
+FREAK descriptor extraction in 27.235 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 63
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+SIFT detection with n=1335 keypoints in 74.1493 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1335
+Num of Keypoints after cropping: 137
+#2 : DETECT KEYPOINTS done
+FREAK descriptor extraction in 24.4222 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 53
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+SIFT detection with n=1305 keypoints in 71.4191 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1305
+Num of Keypoints after cropping: 134
+#2 : DETECT KEYPOINTS done
+FREAK descriptor extraction in 25.2614 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 64
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+SIFT detection with n=1369 keypoints in 70.9706 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1369
+Num of Keypoints after cropping: 140
+#2 : DETECT KEYPOINTS done
+FREAK descriptor extraction in 24.898 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 50
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+SIFT detection with n=1396 keypoints in 72.733 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1396
+Num of Keypoints after cropping: 137
+#2 : DETECT KEYPOINTS done
+FREAK descriptor extraction in 25.5894 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 50
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+SIFT detection with n=1382 keypoints in 68.2061 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1382
+Num of Keypoints after cropping: 148
+#2 : DETECT KEYPOINTS done
+FREAK descriptor extraction in 25.2697 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 47
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+SIFT detection with n=1463 keypoints in 72.2998 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1463
+Num of Keypoints after cropping: 159
+#2 : DETECT KEYPOINTS done
+FREAK descriptor extraction in 27.1575 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 54
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+SIFT detection with n=1422 keypoints in 70.7014 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1422
+Num of Keypoints after cropping: 137
+#2 : DETECT KEYPOINTS done
+FREAK descriptor extraction in 26.4577 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 65
+Press key to continue to next image

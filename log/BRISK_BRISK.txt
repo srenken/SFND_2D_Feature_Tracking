@@ -1,0 +1,117 @@
+Current DataBuffer Size: 0
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 1
+BRISK detection with n=2757 keypoints in 68.0109 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 2757
+Num of Keypoints after cropping: 264
+#2 : DETECT KEYPOINTS done
+BRISK descriptor extraction in 3.6871 ms
+#3 : EXTRACT DESCRIPTORS done
+Current DataBuffer Size: 1
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 2
+BRISK detection with n=2777 keypoints in 62.1917 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 2777
+Num of Keypoints after cropping: 282
+#2 : DETECT KEYPOINTS done
+BRISK descriptor extraction in 3.8103 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 141
+Press key to continue to next image
+Current DataBuffer Size: 2
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+BRISK detection with n=2741 keypoints in 60.17 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 2741
+Num of Keypoints after cropping: 282
+#2 : DETECT KEYPOINTS done
+BRISK descriptor extraction in 2.9274 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 146
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+BRISK detection with n=2735 keypoints in 58.1034 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 2735
+Num of Keypoints after cropping: 277
+#2 : DETECT KEYPOINTS done
+BRISK descriptor extraction in 3.7024 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 134
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+BRISK detection with n=2757 keypoints in 59.7369 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 2757
+Num of Keypoints after cropping: 297
+#2 : DETECT KEYPOINTS done
+BRISK descriptor extraction in 3.2933 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 144
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+BRISK detection with n=2695 keypoints in 56.4825 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 2695
+Num of Keypoints after cropping: 279
+#2 : DETECT KEYPOINTS done
+BRISK descriptor extraction in 2.7505 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 142
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+BRISK detection with n=2715 keypoints in 56.3072 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 2715
+Num of Keypoints after cropping: 289
+#2 : DETECT KEYPOINTS done
+BRISK descriptor extraction in 2.9213 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 159
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+BRISK detection with n=2628 keypoints in 54.5862 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 2628
+Num of Keypoints after cropping: 272
+#2 : DETECT KEYPOINTS done
+BRISK descriptor extraction in 3.1176 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 138
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+BRISK detection with n=2639 keypoints in 54.4439 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 2639
+Num of Keypoints after cropping: 266
+#2 : DETECT KEYPOINTS done
+BRISK descriptor extraction in 2.9774 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 149
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+BRISK detection with n=2672 keypoints in 54.1847 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 2672
+Num of Keypoints after cropping: 254
+#2 : DETECT KEYPOINTS done
+BRISK descriptor extraction in 2.8067 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 159
+Press key to continue to next image

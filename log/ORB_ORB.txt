@@ -1,0 +1,117 @@
+Current DataBuffer Size: 0
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 1
+ORB detection with n=500 keypoints in 15.1284 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 500
+Num of Keypoints after cropping: 92
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 11.7281 ms
+#3 : EXTRACT DESCRIPTORS done
+Current DataBuffer Size: 1
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 2
+ORB detection with n=500 keypoints in 6.8361 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 500
+Num of Keypoints after cropping: 102
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 10.5215 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 41
+Press key to continue to next image
+Current DataBuffer Size: 2
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+ORB detection with n=500 keypoints in 6.6715 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 500
+Num of Keypoints after cropping: 106
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 11.4578 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 51
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+ORB detection with n=500 keypoints in 6.5602 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 500
+Num of Keypoints after cropping: 113
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 10.4351 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 47
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+ORB detection with n=500 keypoints in 6.6248 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 500
+Num of Keypoints after cropping: 109
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 10.9927 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 52
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+ORB detection with n=500 keypoints in 6.6024 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 500
+Num of Keypoints after cropping: 125
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 10.7078 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 56
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+ORB detection with n=500 keypoints in 7.0114 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 500
+Num of Keypoints after cropping: 130
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 10.1525 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 67
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+ORB detection with n=500 keypoints in 6.7487 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 500
+Num of Keypoints after cropping: 129
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 10.2147 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 69
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+ORB detection with n=500 keypoints in 6.8423 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 500
+Num of Keypoints after cropping: 127
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 10.2823 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 66
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+ORB detection with n=500 keypoints in 6.7377 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 500
+Num of Keypoints after cropping: 128
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 10.4104 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 72
+Press key to continue to next image

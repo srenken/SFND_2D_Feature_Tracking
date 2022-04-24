@@ -1,0 +1,117 @@
+Current DataBuffer Size: 0
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 1
+Shi-Tomasi detection with n=1370 keypoints in 25.7489 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1370
+Num of Keypoints after cropping: 125
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 14.0019 ms
+#3 : EXTRACT DESCRIPTORS done
+Current DataBuffer Size: 1
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 2
+Shi-Tomasi detection with n=1301 keypoints in 20.8294 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1301
+Num of Keypoints after cropping: 118
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 3.0152 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 87
+Press key to continue to next image
+Current DataBuffer Size: 2
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+Shi-Tomasi detection with n=1361 keypoints in 28.7105 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1361
+Num of Keypoints after cropping: 123
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 6.4986 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 84
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+Shi-Tomasi detection with n=1358 keypoints in 25.9326 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1358
+Num of Keypoints after cropping: 120
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 6.1417 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 87
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+Shi-Tomasi detection with n=1333 keypoints in 28.4181 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1333
+Num of Keypoints after cropping: 120
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 6.2173 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 89
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+Shi-Tomasi detection with n=1284 keypoints in 22.8221 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1284
+Num of Keypoints after cropping: 113
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 5.2277 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 85
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+Shi-Tomasi detection with n=1322 keypoints in 24.2546 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1322
+Num of Keypoints after cropping: 114
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 6.2299 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 75
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+Shi-Tomasi detection with n=1366 keypoints in 19.3741 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1366
+Num of Keypoints after cropping: 123
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 5.2438 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 86
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+Shi-Tomasi detection with n=1389 keypoints in 25.8203 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1389
+Num of Keypoints after cropping: 111
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 6.334 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 86
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+Shi-Tomasi detection with n=1339 keypoints in 21.8244 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1339
+Num of Keypoints after cropping: 112
+#2 : DETECT KEYPOINTS done
+ORB descriptor extraction in 6.1286 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 89
+Press key to continue to next image

@@ -1,0 +1,117 @@
+Current DataBuffer Size: 0
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 1
+Harris Corner Detectoer detection with n=213 keypoints in 23.9709 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 213
+Num of Keypoints after cropping: 19
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 0.9327 ms
+#3 : EXTRACT DESCRIPTORS done
+Current DataBuffer Size: 1
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 2
+Harris Corner Detectoer detection with n=236 keypoints in 22.5366 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 236
+Num of Keypoints after cropping: 17
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 1.3637 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 6
+Press key to continue to next image
+Current DataBuffer Size: 2
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+Harris Corner Detectoer detection with n=229 keypoints in 31.8895 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 229
+Num of Keypoints after cropping: 14
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 1.433 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 8
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+Harris Corner Detectoer detection with n=218 keypoints in 29.0698 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 218
+Num of Keypoints after cropping: 13
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 1.0988 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 5
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+Harris Corner Detectoer detection with n=244 keypoints in 31.8941 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 244
+Num of Keypoints after cropping: 23
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 1.4152 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 4
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+Harris Corner Detectoer detection with n=246 keypoints in 26.9339 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 246
+Num of Keypoints after cropping: 17
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 1.2184 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 8
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+Harris Corner Detectoer detection with n=230 keypoints in 29.3575 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 230
+Num of Keypoints after cropping: 16
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 1.083 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 9
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+Harris Corner Detectoer detection with n=210 keypoints in 34.5182 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 210
+Num of Keypoints after cropping: 10
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 1.0539 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 5
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+Harris Corner Detectoer detection with n=204 keypoints in 31.2283 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 204
+Num of Keypoints after cropping: 14
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 1.1465 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 6
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+Harris Corner Detectoer detection with n=196 keypoints in 32.9725 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 196
+Num of Keypoints after cropping: 11
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 0.9661 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 7
+Press key to continue to next image

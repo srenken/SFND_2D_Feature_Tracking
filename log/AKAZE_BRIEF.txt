@@ -1,0 +1,117 @@
+Current DataBuffer Size: 0
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 1
+AKAZE detection with n=1351 keypoints in 105.111 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1351
+Num of Keypoints after cropping: 166
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 1.4634 ms
+#3 : EXTRACT DESCRIPTORS done
+Current DataBuffer Size: 1
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 2
+AKAZE detection with n=1327 keypoints in 76.5291 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1327
+Num of Keypoints after cropping: 157
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 1.991 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 109
+Press key to continue to next image
+Current DataBuffer Size: 2
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+AKAZE detection with n=1311 keypoints in 73.5664 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1311
+Num of Keypoints after cropping: 161
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 3.6131 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 117
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+AKAZE detection with n=1351 keypoints in 88.8936 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1351
+Num of Keypoints after cropping: 155
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 2.2085 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 110
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+AKAZE detection with n=1360 keypoints in 83.3293 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1360
+Num of Keypoints after cropping: 163
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 1.8697 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 107
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+AKAZE detection with n=1347 keypoints in 74.3685 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1347
+Num of Keypoints after cropping: 164
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 1.6232 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 113
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+AKAZE detection with n=1363 keypoints in 82.1165 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1363
+Num of Keypoints after cropping: 173
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 1.9085 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 131
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+AKAZE detection with n=1331 keypoints in 80.1657 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1331
+Num of Keypoints after cropping: 175
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 1.8259 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 133
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+AKAZE detection with n=1358 keypoints in 74.1281 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1358
+Num of Keypoints after cropping: 177
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 2.3167 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 135
+Press key to continue to next image
+Current DataBuffer Size: 3
+#1 : LOAD IMAGE INTO BUFFER done -- new DataBuffer Size: 3
+AKAZE detection with n=1331 keypoints in 60.1727 ms
+-- Remove Keypoints outside the bounding box --
+Num of Keypoints before cropping: 1331
+Num of Keypoints after cropping: 179
+#2 : DETECT KEYPOINTS done
+BRIEF descriptor extraction in 1.362 ms
+#3 : EXTRACT DESCRIPTORS done
+#4 : MATCH KEYPOINT DESCRIPTORS done
+Number of matched Keypoints: 132
+Press key to continue to next image
